@@ -1,0 +1,163 @@
+  html {
+    height: 100%;
+  }
+
+  body{
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    font-family: "Roboto";
+    background-color: #f8f8ff;
+  }
+
+  /*about page*/
+  #aboutme {
+    background-image: url("../background2.jpg");
+  }
+
+  #index {
+    background-image: url("../background.jpg");
+    background-position: center;
+  }
+
+  #tradingcards {
+    background-image: url("https://www.ungeek.ph/wp-content/uploads/2020/04/25.jpg")
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    padding: 10px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: lightblue;
+  }
+
+  .middle {
+  }
+
+  .bigimage {
+    display: block;
+    margin: 0 auto;
+    border: 3px groove green;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .card > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .navtext {
+    position: absolute;
+    color: red;
+    font-size: 48px;
+    font-weight: 1000;
+  }
+
+  .navtext > img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .fa {
+
+  }
+
+  #title {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 1200px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  #navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px gray;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    background-color: lightgreen;
+  }
+
+  .push {
+    margin-left: auto;
+  }
+
+  .tcg {
+    width: 300px;
+    border: 1px solid black;
+    margin: 20px auto;
+  }
+
+  .desc {
+    border: 1px solid black;
+  }
+
+  .tcg:hover {
+    border: 2px solid black;
+  }
+
+  #logo {
+    width: 50px;
+  }
+
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  #cards > a {
+    margin: 0;
+  }
+
+  #lotsoftext {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 0px auto;
+    width: 80%;
+  }
+
+  #lotsoftext > img {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+    height: 286px;
+    box-shadow: 5px 5px 5px 5px gray;
+  }
+
+  #bottom {
+    display: flex;
+    background-color: lightgreen;
+    padding: 10px;
+  }
+
+  #sign {
+    margin: 0;
+    line-height: 2;
+  }
+
+  #mycards {
+    text-align: center;
+  }
